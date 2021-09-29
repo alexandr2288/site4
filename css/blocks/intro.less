@@ -1,0 +1,111 @@
+//main: ../style.less
+.intro{
+
+    @media @mobile {
+        margin-top: 100px;
+    }
+
+}
+
+.intro_inner {
+    display: flex;
+    border-bottom: 1px solid fade(@gray, 30%);
+    padding-bottom: 120px;
+    padding-top: 100px;
+
+    background: url("../images/symbols.png")right bottom no-repeat;
+    position: relative;
+
+    @media @tablet {
+        padding-bottom: 50px;
+        padding-top: 50px;
+
+        background-size: 415px auto;
+    }
+
+    @media @mobile {
+        background-size: 300px auto;
+    }
+}
+
+.intro_content {
+    width: 50%;
+
+    @media @mobile {
+        width: 60%;
+    }
+
+       @media @mobile-sm {
+        width: 100%;
+    }
+}
+
+.intro_photo {
+    position: absolute;
+    bottom: -1px;
+    right: 60px;
+    z-index: 1;
+
+    @media @tablet {
+        width: 270px;
+    }
+
+    @media @mobile {
+        right: 10px;
+    }
+
+    @media @mobile-sm {
+        display: none;
+    }
+}
+
+.intro_subtitle {
+    font-size: 32px;
+    font-weight: 200;
+    color: @dark;
+
+    @media @tablet {
+        font-size: 22px;
+    }
+}
+
+.intro_title {
+    font-size: 45px;
+    font-weight: 700;
+    color: @dark;
+
+    margin-bottom: 5px;
+
+    @media @tablet {
+        font-size: 30px;
+    }
+}
+
+.intro_text {
+    font-size: 18px;
+    font-weight: 400;
+    color: fade(@gray, 70%);
+
+    margin-bottom: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
